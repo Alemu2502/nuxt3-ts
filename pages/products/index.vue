@@ -15,11 +15,13 @@ const {data: products} = await useFetch('https://fakestoreapi.com/products');
     layout: "products",
  })
 
+ 
  useHead({
     title: "Alex's Nuxt3 Portfolio",
     meta: [
         {name: "description", content: 'this is my nuxt3 portfolio'}
-    ]
+    ],
+    link: [{ rel: 'canonical', href: 'https://alemumolla-nuxt3.netlify.app/' }],
  })
 
 </script>

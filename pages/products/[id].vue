@@ -1,10 +1,5 @@
 <template>
 <div>
-<head>
-    <Title>Alex's Nuxt3 Portfolio</Title>
-    <Meta name="description" content='this is my nuxt3 portfolio' />
-</head>
-
     <productDetails :product="product"/>
 </div>
 
@@ -24,4 +19,13 @@ if(!product.value){
 definePageMeta({
     layout: "products",
 })
+
+
+useHead({
+    title: "Alex's Nuxt3 Portfolio",
+    meta: [
+        {name: "description", content: 'this is my nuxt3 portfolio'}
+    ],
+    link: [{ rel: 'canonical', href: 'https://alemumolla-nuxt3.netlify.app/' }],
+ })
 </script>
