@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Alex's Nuxt3</title>
+    <meta name="google-site-verification", content="lJ22SY9sdhR0jXq29GbZQgp88UyvnawYTvgkyJatsxI"/>
+  </head>
   <div class="bg-gray-100 min-h-screen flex items-center justify-center">
     <div class="text-center space-y-6">
       <h1 class="text-5xl font-bold text-blue-600">Welcome to Alemu's Portfolio</h1>
